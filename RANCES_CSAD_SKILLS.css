@@ -1,0 +1,27 @@
+body{
+  background-color:#FFFACD;
+}
+div.a h1 {
+  font:italic small-caps bold 3em/1.25em Giveny,Georgia,Maiah,serif;
+	text-align:center;
+	color:#800000;
+  text-shadow:4px 1px 3px lightgray;
+}
+div.a h3 {
+  text-align:center;
+  font-family:Giveny,Georgia,Maiah,serif;
+}
+div.b a,h2{
+  font-family:Georgia,serif;
+  background-color:#B0E0E6;
+  padding: 0 6px;
+  color:#DAA520;
+  text-shadow:1px 0.5px 1px darkred;
+}
+div.b p,blockquote{
+  font-family:Verdana,'Trebuchet MS',sans-serif;
+  text-indent:70px;
+  text-align:justify;
+  line-height:2em;
+  word-spacing:2px;
+}
