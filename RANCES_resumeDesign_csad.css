@@ -1,0 +1,86 @@
+body{
+  background-color:#fff8dc;
+  margin:40px;
+}
+img{
+	height:200px;
+	width:200px;
+	border-radius:70px;
+	float:left;
+	padding:10px;
+	margin-left:150px;
+}
+img:hover{
+	opacity:0.90;
+}
+div.a h1 {
+	font:oblique small-caps bold 3em/1.25em Giveny,Georgia,Maiah,serif;
+	text-align:center;
+	color:#800000;
+	text-shadow:4px 1px 3px lightgray;
+}
+div.a h3{
+	font-family:Montserrat,Arial,sans-serif;
+	font-style:italic;
+	text-align:center;
+	color:#a52a2a;
+}
+
+h2{
+	font-family:Orchard,Giveny,Georgia,serif;
+	background-color:#e6e6fa;
+	padding: 0 6px;
+	color:#a0522d;
+	text-shadow:1px 0.5px 1px #ffe4b5;
+}
+
+div.b blockquote{
+    font-family:Verdana,"Trebuchet MS",sans-serif;
+	  text-align:justify;
+	  text-indent:70px;
+	  line-height:2em;
+	  word-spacing:2px;
+}
+
+div.c {
+  font-family:Verdana,"Trebuchet MS",sans-serif;
+}
+div.c li{
+  padding: 8px 16px;
+  border-bottom: 1px solid #2e8b57;
+}
+
+div.d li{
+  font-family:Verdana,"Trebuchet MS",sans-serif;
+  line-height:2em;
+}
+
+ul.e {
+list-style-type: square;
+  font-family:Verdana,"Trebuchet MS",sans-serif;
+  font-variant:small-caps;
+}
+
+div.f li{
+  font-family:Verdana,sans-serif;
+  border-left: 5px solid green;
+  background-color: #F5F5DC;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+
+div.g li{
+  font-family:Verdana,sans-serif;
+  border-left: 4px solid darkred;
+  background-color: #F5F5DC;
+  list-style-type: none;
+  padding: 10px 20px;
+}
+a {
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+}
