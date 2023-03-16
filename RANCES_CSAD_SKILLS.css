@@ -1,5 +1,6 @@
 body{
   background-color:#FFFACD;
+  margin:40px;
 }
 div.a h1 {
   font:italic small-caps bold 3em/1.25em Giveny,Georgia,Maiah,serif;
@@ -24,4 +25,27 @@ div.b p,blockquote{
   text-align:justify;
   line-height:2em;
   word-spacing:2px;
+}
+h4 a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#d8bfd8;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:small;
+	border-radius:40px;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
 }
