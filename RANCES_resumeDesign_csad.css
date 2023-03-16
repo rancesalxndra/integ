@@ -76,11 +76,25 @@ div.g li{
   list-style-type: none;
   padding: 10px 20px;
 }
-a {
+a{
 	font-family:Arial,Verdana;
 	background-color:#8b0000;
 	color:white;
 	padding:1em 1.5em;
 	text-decoration:none;
 	font-size:small;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#b0e0e6;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:small;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
 }
