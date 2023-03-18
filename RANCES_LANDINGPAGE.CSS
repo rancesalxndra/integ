@@ -16,7 +16,23 @@ h1{
 	font-size:xx-large;
 	font-weight:bold;
 }
+h1:hover{
+	background-color:#d8bfd8;
+}
 a{
-	background-color:afeeee;
-	
+	background-color:#afeeee;
+	box-shadow: 0 5px 0 darkred;
+	color:white;
+	padding:1em 1.5em;
+	position:relative;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+video{
+	border-radius:30px;
+	border-style:double;
+	border-width:thick;
+	border-color:#8b4513;
+	margin:40px;
+	float:center;
 }
