@@ -1,0 +1,22 @@
+body{
+	font-family:'Laro Soft', Verdana, 'Trebuchet MS',sans-serif;	
+	text-align:center;
+	color:#2a2c41;
+	font-size:larger;
+	background-image:url('1.jpg');
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	font-family:Giveny,Georgia,Maiah,serif;
+	text-align:center;
+	color:#800000;
+	font-variant:small-caps;
+	font-size:xx-large;
+	font-weight:bold;
+}
+a{
+	background-color:afeeee;
+	
+}
