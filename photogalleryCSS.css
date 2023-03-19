@@ -1,0 +1,14 @@
+body{
+	background-color:#f5f5dc;
+}
+h1{
+	text-align:center;
+	font-family:Garamond,Bogart,serif;
+	letter-spacing:25px;
+	text-transform:uppercase;
+}
+h3{
+	text-align:center;
+	font-style:italic;
+	font-family:Roboto,Lato,'sans serif';
+}
