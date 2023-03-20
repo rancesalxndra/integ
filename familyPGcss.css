@@ -18,6 +18,21 @@ img{
 div.one{
 	margin:50px;
 }
+h5>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:40px;
+}
+h5>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
 p a{
 	font-family:Arial,Verdana;
 	font-stretch:expanded;
