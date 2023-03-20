@@ -6,9 +6,40 @@ h1{
 	font-family:Garamond,Bogart,serif;
 	letter-spacing:25px;
 	text-transform:uppercase;
+	color:#a52a2a;
+	text-shadow:3px 1px 1px #c0c0c0;
+}
+h1:hover{
+	text-decoration:blink;
+	color:#483d8b;
+}
+p{
+	text-align:center;
 }
 h3{
 	text-align:center;
 	font-style:italic;
-	font-family:Roboto,Lato,'sans serif';
+	font-family:Lato,Roboto,'sans serif';
+	letter-spacing:2px;
+	font-variant:small-caps;
+}
+h3:hover{
+	text-decoration:overline underline;
+}
+h3>mark{
+	background-color:#d8bfd8;
+	border-radius:30px;
+}
+img{
+	margin:50px;
+	float:left;
+	height:500px;
+	width:900px;
+	border-radius:30px;
+}
+img:hover{
+	opacity:0.8;
+	border-style:solid;
+	border-width:medium;
+	border-color:brown;
 }
