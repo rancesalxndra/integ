@@ -1,5 +1,7 @@
 body{
 	background-color:#f5f5dc;
+	font-family:Arial,'sans serif';
+	text-transform:uppercase;
 }
 h1{
 	text-align:center;
@@ -42,4 +44,18 @@ img:hover{
 	border-style:solid;
 	border-width:medium;
 	border-color:brown;
+}
+div.a{
+	background-color:#eee8aa;
+	padding:40px;
+	text-decoration:none;
+	float:right;
+	margin-right:70px;
+	border-radius:50px;
+	box-shadow:3px 5px 0 darkred;
+}
+div.a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	background-color:#e6e6fa;
 }
