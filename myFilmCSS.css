@@ -1,0 +1,27 @@
+body{
+	background-color:#fffacd;
+}
+h1{
+	text-align:center;
+	font-family:Giveny,Georgia,Maiah,serif;
+	letter-spacing:5px;
+	font-variant:small-caps;
+	font-style:italic;
+	color:#daa520;
+	text-shadow:2px 1px 3px lightgray;
+}
+h5>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:20px;
+}
+h5>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
