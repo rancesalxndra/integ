@@ -1,5 +1,7 @@
 body{
 	background-color:#fffacd;
+	font-family:Verdana,'sans serif';
+	color:#483d8b;
 }
 h1{
 	text-align:center;
@@ -35,4 +37,44 @@ img:hover{
 	border-style:dashed;
 	border-color:#483d8b;
 	border-width:thick;
+}
+ol.a {
+  list-style-type: upper-alpha;
+  font-variant:small-caps;
+  float:right;
+  margin-right:80px;
+  font-weight:bold;
+}
+ol.b{
+	list-style-image:url(https://cdn.7tv.app/emote/603cac391cd55c0014d989be/1x.webp);
+	vertical-align:middle;
+}
+p{
+	font-variant:normal;
+	color:#800000;
+	font-size:small;
+	text-transform:capitalize;
+	font-style:italic;
+}
+ol.c{
+	list-style-image:url(https://cdn.7tv.app/emote/6040a8bccf6746000db10348/1x.webp);
+	vertical-align:middle;
+}
+ol.d{
+	list-style-image:url(https://cdn.7tv.app/emote/60af03597e8706b57220e8ce/1x.webp);
+	vertical-align:middle;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#b0e0e6;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:small;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
 }
