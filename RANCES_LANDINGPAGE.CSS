@@ -7,7 +7,7 @@ body{
 	background-repeat:no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	margin:50px;
+	margin:30px;
 }
 h1{
 	font-family:Giveny,Georgia,Maiah,serif;
@@ -109,7 +109,6 @@ div.e{
 	box-shadow: 3px 5px 0 darkred;
 	color:white;
 	padding:1em 1.5em;
-	position:relative;
 	text-decoration:none;
 	font-variant:small-caps;
 	float:left;
@@ -130,7 +129,6 @@ div.f{
 	box-shadow: 3px 5px 0 darkred;
 	color:white;
 	padding:1em 1.5em;
-	position:relative;
 	text-decoration:none;
 	font-variant:small-caps;
 	float:right;
@@ -146,14 +144,54 @@ div.f a:link{
 	text-decoration:none;
 	
 }
+div.g{
+	background-color:#d8bfd8;
+	box-shadow: 3px 5px 0 darkred;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-variant:small-caps;
+	float:right;
+	border-radius:40px;
+	font-size:medium;
+}
+div.g a:hover{
+	background-color:#fffacd;
+	text-decoration:none;
+	font-weight:bold;
+}
+div.g a:link{
+	text-decoration:none;
+	
+}
+div.h{
+	background-color:#d8bfd8;
+	box-shadow: 3px 5px 0 darkred;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-variant:small-caps;
+	float:left;
+	border-radius:40px;
+	font-size:medium;
+}
+div.h a:hover{
+	background-color:#fffacd;
+	text-decoration:none;
+	font-weight:bold;
+}
+div.h a:link{
+	text-decoration:none;
+	
+}
 video{
-	width:600px;
-	height:400px;
+	width:500px;
+	height:300px;
 	border-radius:30px;
-	border-style:double;
+	border-style:ridge;
 	border-width:thick;
 	border-color:#8b4513;
-	float:center;
+
 }
 h6{
 	font-style:italic;
