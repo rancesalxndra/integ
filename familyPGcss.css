@@ -55,50 +55,53 @@ img:hover{
 	border-color:#87cefa;
 }
 img.a{
-	height:400px;
-	width:600px;
-	margin-left:250px;
-	margin-right:80px;
+	height:200px;
+	width:300px;
+	margin-left:100px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.b{
-	height:500px;
-	width:400px;
-	margin-left:350px;
-	margin-right:80px;
+	height:250px;
+	width:200px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.c{
-	height:500px;
-	width:400px;
-	margin-left:350px;
-	margin-right:80px;
+	height:250px;
+	width:200px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.d{
-	height:500px;
-	width:400px;
-	margin-left:350px;
-	margin-right:80px;
+	height:250px;
+	width:200px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.e{
-	height:400px;
-	width:600px;
-	margin-left:250px;
-	margin-right:80px;
+	height:200px;
+	width:300px;
+	margin-left:100px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.f{
-	height:400px;
-	width:600px;
-	margin-left:250px;
-	margin-right:80px;
+	height:200px;
+	width:300px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.g{
-	height:400px;
-	width:600px;
-	margin-left:250px;
-	margin-right:80px;
+	height:200px;
+	width:300px;
+	margin-right:20px;
+	margin-bottom:30px;
 }
 img.h{
-	height:400px;
-	width:600px;
-	margin-left:250px;
+	height:200px;
+	width:300px;
+	margin-left:425px;
 	margin-right:80px;
+	margin-bottom:30px;
 }
