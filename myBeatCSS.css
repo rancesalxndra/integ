@@ -38,6 +38,9 @@ img.main{
 	border-style:ridge;
 	border-width:5px;
 }
+img.main:hover{
+	filter:grayscale(30%);
+}
 a.a{
 	font-family:Arial,Verdana;
 	font-variant:small-caps;
@@ -68,17 +71,6 @@ img:hover{
 	border-style:dashed;
 	border-color:#483d8b;
 	border-width:thick;
-}
-ol.a {
-  list-style-type: upper-alpha;
-  font-variant:small-caps;
-  float:right;
-  margin-right:80px;
-  font-weight:bold;
-}
-ol.b{
-	list-style-image:url(https://cdn.7tv.app/emote/603cac391cd55c0014d989be/1x.webp);
-	vertical-align:middle;
 }
 p{
 	font-variant:normal;
@@ -138,6 +130,7 @@ h2{
 	text-transform:uppercase;
 	letter-spacing:16px;
 	background-color:#d8bfd8;
+	text-shadow:4px 2px 7px white;
 }
 .genre>a:active{
 	color:black;
