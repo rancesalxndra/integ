@@ -1,5 +1,9 @@
 body{
-	background-color:#fffacd;
+	margin-left:40px;
+	background-image: url('2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 h1{
 	text-align:center;
@@ -24,4 +28,145 @@ h5>a:hover{
 	font-weight:bold;
 	background-color:#ffd700;
 	color:black;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#b0e0e6;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:small;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+}
+img.movie{
+	border-radius:100px;
+	height:200px;
+	width:200px;
+	margin-left:380px;
+	margin-right:100px;
+	border-style:dashed;
+	border-color:darkred;
+}
+img.tvshow{
+	border-radius:100px;
+	height:200px;
+	width:200px;
+	border-style:dashed;
+	border-color:darkred;
+}
+img:hover{
+	border-style:outset;
+	border-width:5px;
+	border-color:darkred;
+	opacity:.8;
+}
+img.one {
+	border-radius:80px;
+	height:200px;
+	width:300px;
+	margin-left:70px;
+	margin-right:100px;
+}
+img.two{
+	border-radius:80px;
+	height:200px;
+	width:300px;
+}
+img.three{
+	border-radius:80px;
+	height:200px;
+	margin-left:90px;
+	width:300px;
+}
+img.four{
+	border-radius:80px;
+	height:200px;
+	width:300px;
+	margin-left:300px;
+	margin-right:100px;
+}
+img.five{
+	border-radius:80px;
+	height:200px;
+	margin-left:20px;
+	width:300px;
+}
+h2{
+	font-family:Garamond, serif;
+	color:#8b0000;
+	font-weight:bold;
+	margin-left:30px;
+}
+h2:hover{
+	background-color:#d8bfd8;
+	text-shadow:2px 1px 3px lightyellow;
+	border-radius:20px;
+}
+video{
+	height:300px;
+	width:400px;
+	margin-left:30px;
+}
+figure.ap{
+	float:left;
+	margin-right:30px;
+}
+article>p{
+	font-family:Arial,'sans serif';
+	font-size:medium;
+	line-height:30px;
+	font-style:normal;
+	text-transform:none;
+	text-align:justify;
+	margin-right:50px;
+}
+h3{
+	text-align:center;
+	text-decoration:overline underline;
+	letter-spacing:10px;
+}
+figure.md{
+	float:right;
+	margin-left:30px;
+}
+figure.gs{
+	float:left;
+	margin-right:30px;
+}
+figure.kb{
+	float:right;
+	margin-left:30px;
+}
+figure.pf{
+	float:left;
+	margin-right:30px;
+}
+figure.lw{
+	float:left;
+	margin-right:30px;
+}
+figure.lt{
+	float:right;
+	margin-left:30px;
+}
+figure.r1{
+	float:left;
+	margin-right:30px;
+}
+figure.cloy{
+	float:right;
+	margin-left:30px;
+}
+figure.got{
+	float:left;
+	margin-right:30px;
+}
+figure.bb{
+	float:right;
+	margin-left:30px;
 }
