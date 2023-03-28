@@ -2,6 +2,7 @@ body{
 	background-color:#fffacd;
 	font-family:Verdana,'sans serif';
 	color:#483d8b;
+	margin:40px;
 }
 h1{
 	text-align:center;
@@ -27,10 +28,40 @@ h6>a:hover{
 	background-color:#ffd700;
 	color:black;
 }
-img{
+img.main{
 	margin:70px;
+	margin-left:500px;
 	height:300px;
-	width:400px;
+	width:300px;
+	border-radius:200px;
+	float:center;
+	border-style:ridge;
+	border-width:5px;
+}
+a.a{
+	font-family:Arial,Verdana;
+	font-variant:small-caps;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+}
+a:link{
+	text-decoration:none;
+
+}
+a.b{
+	font-family:Arial,Verdana;
+	font-variant:small-caps;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+}
+a.c{
+	font-family:Arial,Verdana;
+	font-variant:small-caps;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
 }
 img:hover{
 	box-shadow:20px 20px 30px 10px pink inset;
@@ -56,14 +87,6 @@ p{
 	text-transform:capitalize;
 	font-style:italic;
 }
-ol.c{
-	list-style-image:url(https://cdn.7tv.app/emote/6040a8bccf6746000db10348/1x.webp);
-	vertical-align:middle;
-}
-ol.d{
-	list-style-image:url(https://cdn.7tv.app/emote/60af03597e8706b57220e8ce/1x.webp);
-	vertical-align:middle;
-}
 p a{
 	font-family:Arial,Verdana;
 	font-stretch:expanded;
@@ -77,4 +100,110 @@ p a:hover{
 	text-decoration:blink;
 	font-weight:bold;
 	background-color:#ffd700;
+}
+a.beat{
+	background-color:transparent;
+}
+a.beat:hover{
+	background-color:transparent;
+}
+img.r{
+	border-radius:90px;
+	width:200px;
+	height:190px;
+	margin-left:150px
+}
+img.r:hover{
+	filter:grayscale(90%);
+}
+img.hh:hover{
+	filter:grayscale(90%);
+}
+img.in:hover{
+	filter:grayscale(90%);
+}
+img.hh{
+	border-radius:90px;
+	float:center;
+	width:200px;
+	height:190px;
+}
+img.in{
+	border-radius:90px;
+	width:200px;
+	height:190px;
+}
+h2{
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:16px;
+	background-color:#d8bfd8;
+}
+.genre>a:active{
+	color:black;
+	text-decoration:overline underline;
+}
+figure.sza{
+	float:left;
+	margin-right:30px;
+}
+figure.frank{
+	float:right;
+	margin-left:30px;
+}
+figure.drake{
+	float:left;
+	margin-right:30px;
+}
+figure.ty{
+	float:right;
+	margin-left:30px;
+}
+figure.kendrick{
+	float:left;
+	margin-right:30px;
+}
+figure.amine{
+	float:right;
+	margin-left:30px;
+}
+figure.mac{
+	float:left;
+	margin-right:30px;
+}
+figure.tvg{
+	float:right;
+	margin-left:30px;
+}
+figure.lana{
+	float:left;
+	margin-right:30px;
+}
+figure.the1975{
+	float:right;
+	margin-left:30px;
+}
+figure>img:hover{
+	border:8px ridge #d8bfd8;
+	filter:grayscale(50%);
+}
+figcaption{
+	font-weight:bold;
+	padding-top:.25em;
+	margin-bottom:1em;
+	border-bottom:2px solid darkred;
+	border-left:2px solid darkred;
+	border-right:2px solid darkred;
+	text-align:center;
+}
+audio{
+	margin-left:80px;
+	border:3px dashed darkred;
+}
+article>p{
+	font-family:Montserrat, Arial,'sans serif';
+	font-size:large;
+	font-style:normal;
+	text-transform:none;
+	text-align:justify;
 }
