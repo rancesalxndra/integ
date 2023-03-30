@@ -29,6 +29,23 @@ h5>a:hover{
 	background-color:#ffd700;
 	color:black;
 }
+.mainf>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:20px;
+	float:right;
+	margin-right:40px;
+}
+.mainf>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
 p a{
 	font-family:Arial,Verdana;
 	font-stretch:expanded;
@@ -36,12 +53,14 @@ p a{
 	color:black;
 	padding:1em 1em;
 	text-decoration:none;
-	font-size:small;
+	font-size:medium;
+	border-radius:80px;
+	margin-left:40px;
 }
 p a:hover{
 	text-decoration:blink;
 	font-weight:bold;
-	background-color:#ffd700;
+	background-color:#d8bfd8;
 }
 img.movie{
 	border-radius:100px;
