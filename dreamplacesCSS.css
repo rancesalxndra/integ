@@ -4,3 +4,88 @@ body{
 	background-attachment: fixed;
 	background-size: cover;
 }
+h1{
+	text-align:center;
+	font-family:Giveny,Georgia,Maiah,serif;
+	letter-spacing:5px;
+	font-variant:small-caps;
+	font-style:italic;
+	color:#483d8b;
+	text-shadow:2px 1px 3px gray;
+}
+h1:hover{
+	text-decoration:blink;
+	color:#daa520;
+}
+p{
+	font-family:Tahoma,Verdana,'sans-serif';
+	text-align:justify;
+	margin:50px 120px 50px 100px;
+	line-height:35px;
+}
+h2{
+	font-family:Garamond, serif;
+	color:#8b0000;
+	font-weight:bold;
+	margin-left:30px;
+	letter-spacing:5px;
+	text-align:left;
+	background-color:#d8bfd8;
+	text-shadow:2px 1px 3px lightyellow;
+	border-radius:30px;
+	margin-right:600px;
+	padding-left:10px;
+}
+.dream>img{
+	margin-left:220px;
+	height:500px;
+	width:800px;
+	border-style:inset;
+	border-color:#d8bfd8;
+	border-width:10px;
+}
+*>img:hover{
+	opacity:0.8;
+}
+.dream>p{
+	font-family:Helvetica,'sans serif';
+	letter-spacing:3px;
+	font-weight:bold;
+	text-align:center;
+	font-size:large;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#800000;
+}
+h5>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:20px;
+	border-radius:30px;
+}
+h5>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#b0e0e6;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:medium;
+	border-radius:80px;
+	margin-left:40px;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#d8bfd8;
+}
