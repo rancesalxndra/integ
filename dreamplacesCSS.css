@@ -17,6 +17,22 @@ h1:hover{
 	text-decoration:blink;
 	color:#daa520;
 }
+h6>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:20px;
+	border-radius:30px;
+}
+h6>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
 p{
 	font-family:Tahoma,Verdana,'sans-serif';
 	text-align:justify;
@@ -81,11 +97,20 @@ p a{
 	padding:1em 1em;
 	text-decoration:none;
 	font-size:medium;
-	border-radius:80px;
+	border-radius:50px;
 	margin-left:40px;
 }
 p a:hover{
 	text-decoration:blink;
 	font-weight:bold;
 	background-color:#d8bfd8;
+}
+#place{
+	border-style:double;
+	border-width:8px;
+	border-color:#483d8b;
+}
+p#desc{
+	font-family:Tahoma,Verdana,'sans-serif';
+	text-align:center;
 }
