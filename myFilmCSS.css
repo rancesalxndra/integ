@@ -14,7 +14,21 @@ h1{
 	color:#daa520;
 	text-shadow:2px 1px 3px gray;
 }
-h5>a{
+h1:hover{
+	text-decoration:blink;
+	color:#483d8b;
+}
+span>a{
+	font-family:Arial,Verdana;
+	background-color:#8b0000;
+	color:white;
+	padding:1em 1.5em;
+	text-decoration:none;
+	font-size:small;
+	margin-left:20px;
+	border-radius:30px;
+}
+span.mainf>a{
 	font-family:Arial,Verdana;
 	background-color:#8b0000;
 	color:white;
@@ -23,7 +37,7 @@ h5>a{
 	font-size:small;
 	margin-left:20px;
 }
-h5>a:hover{
+span>a:hover{
 	text-decoration:blink;
 	font-weight:bold;
 	background-color:#ffd700;
