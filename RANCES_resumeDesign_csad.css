@@ -25,7 +25,12 @@ div.a h3{
 	text-align:center;
 	color:#a52a2a;
 }
-
+h4>a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#ffd700;
+	color:black;
+}
 h2{
 	font-family:Orchard,Giveny,Georgia,serif;
 	background-color:#e6e6fa;
