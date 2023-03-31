@@ -3,9 +3,44 @@
 <head>
   <meta charset=“utf-8"/>
   <title>Alexandra's Dream Places</title>
+  <script language="JavaScript">
+		function writeText(txt){
+			document.getElementById("desc").innerHTML=txt;
+		}
+		function dissolveText(txt){
+			document.getElementById("desc").innerHTML=txt;
+		}
+</script>
   <style type="text/css">
   <base target="window">
   </style>
-  <link rel="stylesheet" type="text/css" href="./dreamplacesCSS.css"/>  
+  <link rel="stylesheet" type="text/css" href="./dreamplacesCSS.css"/>
 </head>
   <body id="top">
+  <hr width="40%" align="left" size="8" color=#b22222>
+  <h1>ALEXANDRA's DREAM PLACES</h1>
+  <hr width="40%" align="right" size="8" color=#b22222>
+  <br>
+  <h6><a href="https://rancesalxndra.github.io/integ/RANCES_LandingPage_CSAD.html">Back to Home Page</a></h6>
+  <br><br><br>
+  <div align="center">
+	<img src="PICTURES/imagemap.png" usemap="#places" height="500" width="800" id="place">
+	<map name="places">
+		<area shape="rect" coords="734,129,1045,281" href="https://rancesalxndra.github.io/integ/copenhagen.html" onMouseOver="writeText('I love Copenhagen!');" onMouseOut="dissolveText('');">
+		
+		<area shape="circle" coords="1478,678,70" href="https://rancesalxndra.github.io/integ/japan.html" onMouseOver="writeText('I love Japan!');" onMouseOut="dissolveText('');>
+		
+		<area shape="rect" coords="292,938,606,1010" href="https://rancesalxndra.github.io/integ/nz.html" onMouseOver="writeText('I love New Zealand!');" onMouseOut="dissolveText('');>
+		
+		<area shape="poly" coords="313,51,313,97,323,102,324,115,323,132,343,415,352,434,370,529,380,532,389,553,396,573,426,641,401,654,380,626,363,610,350,593,331,590,314,587,296,585,280,597,263,598,255,612,250,627,246,641,236,653,228,661,214,641,202,626,235,570,238,537,250,534,275,436,270,422,282,422,297,132,302,120,299,103" href="https://rancesalxndra.github.io/integ/paris.html" onMouseOver="writeText('I love Paris!');" onMouseOut="dissolveText('');>
+		
+		<area shape="poly" coords="928,571,946,598,960,607,977,614,994,612,1011,614,1031,621,1012,629,1002,648,989,648,975,648,962,646,962,739,956,749,965,785,953,793,940,795,928,795,914,797,916,739,911,709,907,660,890,648,865,643,865,627,850,619,836,624,902,607,914,602,921,590" href="https://rancesalxndra.github.io/integ/brazil.html" onMouseOver="writeText('I love Brazil!');" onMouseOut="dissolveText('');>
+	</map>
+  </div>
+  <p id="desc"></p>
+  <br><br><p><a href="#top">Go to Top</a></p>
+
+ </body>
+ </html>
+  
+	
