@@ -1,5 +1,8 @@
 body{
-	background-color:#fffacd;
+	background-image: url('2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 }
 h1{
 	text-align:center;
@@ -7,8 +10,12 @@ h1{
 	letter-spacing:5px;
 	font-variant:small-caps;
 	font-style:italic;
-	color:#daa520;
+	color:#a52a2a;
 	text-shadow:2px 1px 3px lightgray;
+}
+h1:hover{
+	text-decoration:blink;
+	color:#483d8b;
 }
 img{
 	height:300px;
