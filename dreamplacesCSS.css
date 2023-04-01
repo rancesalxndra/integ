@@ -111,6 +111,13 @@ p a:hover{
 	border-color:#483d8b;
 }
 p#desc{
-	font-family:Tahoma,Verdana,'sans-serif';
+	font-family:Helvetica,'sans serif';
+	letter-spacing:3px;
+	font-weight:bold;
+	text-align:center;
+	font-size:large;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#800000;
 	text-align:center;
 }
