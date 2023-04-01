@@ -4,6 +4,7 @@ body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	margin-right:40px;
 }
 h1{
 	text-align:center;
@@ -141,7 +142,7 @@ h2{
 h2:hover{
 	background-color:#d8bfd8;
 	text-shadow:2px 1px 3px lightyellow;
-	border-radius:20px;
+	border-radius:20px;										
 }
 video{
 	height:300px;
@@ -200,4 +201,15 @@ figure.got{
 figure.bb{
 	float:right;
 	margin-left:30px;
+}
+article{
+	overflow:auto;
+	margin-left:50px;
+	border-style:ridge;
+	border-radius:20px;
+	margin-right:50px;
+	border-color:#483d8b;
+}
+article>p{
+	margin-left:20px;
 }
