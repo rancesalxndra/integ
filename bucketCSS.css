@@ -35,3 +35,55 @@ span>a:hover{
 	background-color:#ffd700;
 	color:black;
 }
+div>p,ol{
+	margin-left:100px;
+	margin-right:100px;
+	text-align:justify;
+	font-family:Arial;
+	font-size:large;
+	line-height:40px;
+	color:#8b0000;
+}
+img{
+	height:200px;
+	width:400px;
+	float:left;
+	margin-left:80px;
+	margin-right:50px;
+	border-radius:50px;
+	border-style:inset;
+	border-color:#483d8b;
+	border-width:5px;
+}
+h5{
+	font-style:italic;
+	color:#483d8b;
+	font-family:Arial, Tahoma;
+}
+ol.list{
+	list-style-image:url(https://cdn.7tv.app/emote/60aec2196cfcffe15f4e4f93/1x.webp);
+	margin-left:150px;
+	margin-right:160px;
+	border-color:#d8bfd8;
+}
+img:hover{
+	border-style:outset;
+	border-color:#daa520;
+	border-width:8px;
+}
+p a{
+	font-family:Arial,Verdana;
+	font-stretch:expanded;
+	background-color:#b0e0e6;
+	color:black;
+	padding:1em 1em;
+	text-decoration:none;
+	font-size:medium;
+	border-radius:50px;
+	margin-left:40px;
+}
+p a:hover{
+	text-decoration:blink;
+	font-weight:bold;
+	background-color:#d8bfd8;
+}
