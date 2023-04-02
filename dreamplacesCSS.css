@@ -109,6 +109,8 @@ p a:hover{
 	border-style:double;
 	border-width:8px;
 	border-color:#483d8b;
+	width:800px;
+	height:500px;
 }
 p#desc{
 	font-family:Helvetica,'sans serif';
