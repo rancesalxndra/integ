@@ -11,45 +11,55 @@
   <body>
   <div align="center">
   <h1>XANDRIA</h1>
+  <br>
+  <h2>Choose your meal!</h2>
   <table>
 	<form method="post" action="orders.html">
-	<thead>
+	
 		<tr>
-			<th>PICK YOUR MEAL! :) </th>
+			<th colspan="4">Customer Information</th>
 		</tr>
-	</thead>
+		
 	<tbody>
-		<tr class="customer">
-			<td colspan="4">Customer Information</td>
+		<tr>
+			<td colspan="4"><label for="name">Full Name</label></td>
 		</tr>
 		
 		<tr>
-			<td><label for="name">Full Name</label></td>
-			<td><input type="text" name="name" size="20" placeholder="e.g. Lizzie Grant" maxlength="40" autofocus required></td>
+			<td colspan="4"><input type="text" name="name" placeholder="e.g. Lizzie Grant" maxlength="40" autofocus required></td>
 		</tr>
 		
 		<tr>
 			<td><label for="address">Complete Address</label></td>
-			<td><input type="text" name="address" size="30" maxlength="50" autofocus required></td>
+
+		</tr>
+		
+		<tr>
+			<td colspan="4"><input type="text" name="address" size="30" maxlength="50" autofocus required></td>
 		</tr>
 		
 		<tr>
 			<td><label for="contact">Contact Number</label></td>
-			<td><input type="text" name="contact" size="13" placeholder="0912 345 6789" autofocus required></td>
+			<td colspan="4"><input type="text" name="contact" size="13" placeholder="0912 345 6789" autofocus required></td>
 		</tr>
 		
 		<tr>
 			<td><label for="email">Email Address</label></td>
-			<td><input type="email" name="email" required></td>
+			<td colspan="4"><input type="email" name="email" width="92%"></td>
 		</tr>
 		
 		<tr>
-			<td><label for="describe">Description</label></td>
-			<td><textarea rows="10" cols="30" required autofocus></textarea></td>
+			<td><label for="describe">Landmark</label></td>
 		</tr>
-
-		<tr class="orderForm">
-			<td colspan="4">Order Form</td>
+		
+		<tr>
+			<td colspan="4"><textarea rows="10" cols="30" required autofocus></textarea></td>
+		</tr>
+	</table>
+	<br><br>
+	<table class="orders">
+		<tr>
+			<th colspan="4">Order Form</th>
 		</tr>
 		
 		<tr class="menu">
@@ -209,8 +219,8 @@
 			</td>
 			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="fries" max="10" min="1" placeholder="1"></td>
 			<td>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="size1" name="regular">
-					<label for="size1">Regular</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="regular" name="size1">
+					<label for="regular">Regular</label>
 			</td>
 		</tr>
 		
@@ -225,8 +235,8 @@
 			</td>
 			<td></td>
 			<td>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="size1" name="medium">
-					<label for="size1">Medium</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="medium" name="size1">
+					<label for="medium">Medium</label>
 			</td>
 		</tr>
 		
@@ -235,8 +245,8 @@
 			<td><label for="pasta">Quantity</label></td>
 			<td></td>
 			<td>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="size1" name="lar">
-					<label for="size1">Large</label>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="lar" name="size1">
+					<label for="lar">Large</label>
 			</td>
 		</tr>
 		
@@ -290,9 +300,33 @@
 			<td></td>
 		</tr>
 	</tbody>
+	</table>
+	<br>
+	<table>
+		<tr>
+			<th colspan="4">Mode of Delivery</th>
+		</tr>
+		
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="delivery" name="mode">
+					<label for="delivery">Delivery</label>
+		</tr>
+		
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="pickup" name="mode">
+					<label for="pickup">Pick-Up</label>
+		</tr>
+		
+		<tr>
+			<th colspan="4">Feedback</th>
+		</tr>
+		
+		<tr>
+			<td colspan="4"><textarea rows="10" cols="30" placeholder="Please tell us how we can improve our ordering form..." autofocus></textarea></td>
+		</tr>
 	<tfoot>
 		<tr>
-			<th colspan="2"><input type="reset" id="button1" value="Reset"></th>
+			<th colspan="2"><input type="reset" id="button1" value="Clear Order"></th>
 			<th colspan="2"><input type="submit" id="button2" value="Place Order"></th>
 		</tr>
 	</tfoot>
