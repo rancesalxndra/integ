@@ -1,11 +1,11 @@
 body{
 	margin:50px;
 	background-image:url('fastfood.jpg');
+	font-family:Arial;
 }
 h1{
-	font-family:;
+	font-family:Georgia;
 	letter-spacing:5px;
-	font-variant:small-caps;
 	font-style:italic;
 	color:#483d8b;
 }
@@ -15,21 +15,27 @@ table{
 	margin:3px auto;
 	background-color:#fffaf0;
 }
-th{
-	text-align:center;
+h2{
 	font-variant:small-caps;
-	font-family:Giveny,serif;
-	font-weight:bold;
+	text-align:center;
+	border-radius:30px;
 	word-spacing:5px;
-	padding:30px;
+	margin-left:30px;
+	padding-right:30px;
+}
+th{
+	background-color:#fafad2;
+	border-bottom-style:solid;
+	border-top:solid #f08080;
+	border-bottom-color:#f08080;
 }
 .customer, .orderForm{
 	background-color:#fafad2;
-	border-bottom-style:solid;
+	border-bottom-style:solid ;
 	border-top-style:solid;
 }
 td, th{
-	padding:10px;
+	padding:20px;
 }
 textarea{
 	resize:none;
@@ -42,7 +48,25 @@ textarea{
 	margin-left:10px;
 }
 input[type=text],textarea,input[type=email]{
-	border-radius:4px;
-	display:list-item;
-	border:1px solid #800000;
+	width: 95%;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin-bottom: 15px;
+	border:1px solid #a52a2a;
+}
+input[type="submit"],input[type="reset"] {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 10px;
+}
+input[type="submit"]:hover,input[type="reset"]:hover {
+  background-color: #483d8b;
+  color:white;
 }
