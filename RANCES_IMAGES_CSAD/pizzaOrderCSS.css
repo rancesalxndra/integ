@@ -1,11 +1,19 @@
 body{
 	margin:50px;
-	background-color:#ffe4e1;
+	background-image:url('RANCES_IMAGES_CSAD/fastfood.jpg');
+}
+h1{
+	font-family:Garamond;
+	letter-spacing:5px;
+	font-variant:small-caps;
+	font-style:italic;
+	color:#483d8b;
 }
 table{
 	border:5px solid #f08080;
 	border-collapse:collapse;
 	margin:3px auto;
+	background-color:#fffaf0;
 }
 th{
 	text-align:center;
