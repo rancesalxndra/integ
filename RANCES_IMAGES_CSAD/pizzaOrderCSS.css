@@ -1,0 +1,40 @@
+body{
+	margin:50px;
+	background-color:#ffe4e1;
+}
+table{
+	border:5px solid #f08080;
+	border-collapse:collapse;
+	margin:3px auto;
+}
+th{
+	text-align:center;
+	font-variant:small-caps;
+	font-family:Giveny,serif;
+	font-weight:bold;
+	word-spacing:5px;
+	padding:30px;
+}
+.customer, .orderForm{
+	background-color:#fafad2;
+	border-bottom-style:solid;
+	border-top-style:solid;
+}
+td, th{
+	padding:10px;
+}
+textarea{
+	resize:none;
+}
+.icon{
+	width:50px;
+	height:40px;
+	vertical-align:middle;
+	margin-right:8px;
+	margin-left:10px;
+}
+input[type=text],textarea,input[type=email]{
+	border-radius:4px;
+	display:list-item;
+	border:1px solid #800000;
+}
