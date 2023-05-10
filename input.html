@@ -1,0 +1,121 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+	table{
+		border:5px solid #454545;
+		border-collapse:collapse; 
+		margin: 10px auto;
+	}
+	td, th{
+		border-bottom: 1px solid #0000FF;
+		border-collapse:collapse;
+		padding: 15px;
+	}
+	body {
+		font-family: Tahoma;
+		color: navy;
+		font-size:1.125em;
+	}
+	thead tr{
+		background-color: #b4dfe5;
+	}
+	input[type=text], textarea, select{ 
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block; 
+		border: 1px solid #ccc;
+		border-radius: 10px; 
+		box-sizing: border-box;
+	}
+	input[type=submit] {
+		width: 100%;
+		background-color:#b4dfe5;
+		color: navy;
+		padding: 14px 20px;
+		margin: 8px 0;
+		border: none;
+		border-radius: 10px;
+		cursor: pointer;
+		font-family: verdana;
+		font-size:1.125em;
+	}
+	input[type=submit]:hover {
+		background-color: #379683;
+		color: white;
+	}
+	textarea{
+		resize: none;
+}
+  </style>
+</head>
+<!--RANCES, CHRISTIAN ALEXANDRA B.-->
+<body>
+<table>
+<form method="post" action="greetings.html"> 
+<thead>
+<tr>
+<th>Name</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><label for="name">Name:</label></td>
+<td><input type="text" name="name" size="30" placeholder="Enter Complete Name here" maxlength ="50" autofocus required></td>
+</tr>
+<tr>
+<td><label for="email">Email:</label>
+<td><input type="email" name="email" size="30" placeholder="Enter Complete Email here" maxlength ="50" autofocus required>
+</tr>
+<tr>
+<td><label for="age">Age:</label>
+<td><input type="number" name="age" id="age" min="1" max="200" step="5" autofocus required>
+</tr>
+<tr>
+<td><label for="phone">Phone:</label>
+<td><input type="tel" name="phone" size="30" placeholder="Enter Phone Number here" maxlength ="50" autofocus required>
+</tr>
+<tr>
+<td><label for="date">Birthdate:</label>
+<td><input type="date" name="date" id="date" min="1990-06-10" autofocus required>
+</tr>
+<tr>
+<td><label for="sex">Sex: </label></td>
+<td>
+<input type="radio" id="male" name="gender" value="male" CHECKED> <label for="male">Male</label><br>
+<input type="radio" id="female" name="gender" value="female" > <label for="female">Female</label><br>
+<input type="radio" id="other" name="gender" value="other"> <label for="other">Other</label>
+</td>
+</tr>
+<tr>
+<td><label for="eyeColor">Eye Color:</label></td>
+<td>
+<select name="eyeColor" id="eyeColor" size="1">
+<option value="green">green</option>
+<option value="blue">blue</option> <option value="brown">brown</option>
+<option value="black" SELECTED>black</option> </select>
+</td>
+</tr>
+  
+<tr>
+<td><label for="checkAll">Check all the Applies:</label></td>
+<td>
+<input type="checkbox" id="feature1" name="feature1" value="6ft."> <label for="feature1"> Over 6ft. Tall</label><br>
+<input type="checkbox" id="feature2" name="feature2" value="2001bs.">
+<label for="feature2"> Over 200 pounds</label><br>
+<input type="checkbox" id="feature3" name="feature3" value="less than 2001bs."> <label for="feature3"> Less than 200 pounds</label><br>
+</td>
+</tr>
+<tr>
+<td><label for="ability">Describe your athletic ability:</label></td> <td>
+<textarea rows="10" cols="30" required enabled></textarea>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th colspan="2"><input type="submit" id="btn1" value="Enter my Information"></th> </tr>
+</tfoot>
+  </table>
