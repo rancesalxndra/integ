@@ -1,0 +1,13 @@
+body{
+	background-image:url('bgcontent.png');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.logo{
+	height:100px;
+	width:120px;
+}
+.logo:hover{
+	opacity:0.75;
+	
+}
