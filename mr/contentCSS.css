@@ -92,12 +92,12 @@ h1{
 .descrip{
 	margin-left:150px;
 	margin-right:370px;
-	font-size:20px;
+	font-size:18px;
 	text-align:justify;
 	line-height:40px;
 }
 .a, .b{
-	font-size:20px;
+	font-size:18px;
 	text-align:justify;
 	line-height:40px;
 	margin-left:150px;
@@ -106,7 +106,9 @@ h1{
 .nutrition td{
 	border:2px solid #b49987;
 	text-align:center;
-	padding:30px;
+	padding:20px;
+	background-color:#fef1b8;
+	font-size:15px;
 }
 .images{
 	float:right;
@@ -114,7 +116,7 @@ h1{
 	margin-left:40px;
 }
 .images img{
-	border-radius:30px;
+	border-radius:10px;
 }
 .images img:hover{
 	transform: scale(1.05);
@@ -171,4 +173,11 @@ h1{
 .table5 td{
   text-align:center;
   padding:5px;
+}
+#gotop:hover{
+	transition:0.5s;
+	transform:scale(1.10);
+}
+h3{
+	color:#b49987;
 }
