@@ -1,13 +1,79 @@
+html,body{
+	width:auto;	
+}
 body{
-	background-image:url('bgcontent.png');
+	background-image:url('https://rancesalxndra.github.io/integ/mr/bgcontent.png');
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-attachment: fixed;
 }
 .logo{
-	height:100px;
+	height:120px;
 	width:120px;
+	vertical-align:middle;
 }
 .logo:hover{
-	opacity:0.75;
-	
+	transition:0.5s;
+	transform: scale(1.10);
+}
+h2{
+	display:inline;
+}
+.navigate{
+	display:inline;
+	margin-left:850px;
+  
+}
+.arrow:hover{
+	transition:0.5s;
+	transform:scale(1.10);
+}
+.arrow{
+	height:40px;
+	width:40px;
+	padding-top:20px;
+}
+h1{
+	margin-left:200px;
+}
+.ratings{
+	width:150px;
+	height:130px;
+	margin-left:20px;
+	margin-top:10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-spacing: 20px 5px 20px 5px;
+	margin-left: 240px;
+	border-radius:5px;
+	background-color:white;
+	display:inline-block;
+	padding-bottom:5px;
+	text-align:center;
+}
+.time{
+	width:150px;
+	height:130px;
+	border-collapse:separate;
+	margin-top:10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-spacing: 20px 5px 20px 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius:5px;
+	background-color:white;
+	display:inline-block;
+	padding-bottom:5px;
+	text-align:center;
+}
+.ingredients{
+	text-align:center;
+	width:150px;
+	height:130px;
+	margin-top:10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	border-spacing: 20px 5px 20px 5px;
+	border-radius:5px;
+	background-color:white;
+	display:inline-block;
+	padding-bottom:5px;
 }
