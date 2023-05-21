@@ -2,7 +2,10 @@ html,body{
 	min-height: 100%;
 }
 body{
-	background-color:#fffff8;
+	background-image:url('https://rancesalxndra.github.io/integ/mr/bgcontent.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	font-family:Arial;
 }
 .logo{
@@ -180,4 +183,7 @@ h1{
 }
 h3{
 	color:#b49987;
+}
+h5{
+	background-color:#F0F5CE;
 }
