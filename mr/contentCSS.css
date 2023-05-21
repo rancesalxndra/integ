@@ -1,16 +1,16 @@
 html,body{
-	width:auto;	
+	min-height: 100%;
 }
 body{
-	background-image:url('https://rancesalxndra.github.io/integ/mr/bgcontent.png');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-attachment: fixed;
+	background-color:#fffff8;
+	font-family:Arial;
 }
 .logo{
 	height:120px;
 	width:120px;
 	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
 }
 .logo:hover{
 	transition:0.5s;
@@ -50,6 +50,10 @@ h1{
 	padding-bottom:5px;
 	text-align:center;
 }
+.ratings:hover{
+	background-color:#b49987;
+	color:white;
+}
 .time{
 	width:150px;
 	height:130px;
@@ -65,6 +69,10 @@ h1{
 	padding-bottom:5px;
 	text-align:center;
 }
+.time:hover{
+	background-color:#b49987;
+	color:white;
+}
 .ingredients{
 	text-align:center;
 	width:150px;
@@ -76,4 +84,39 @@ h1{
 	background-color:white;
 	display:inline-block;
 	padding-bottom:5px;
+}
+.ingredients:hover{
+	background-color:#b49987;
+	color:white;
+}
+.descrip{
+	margin-left:150px;
+	margin-right:370px;
+	font-size:20px;
+	text-align:justify;
+	line-height:40px;
+}
+.a, .b{
+	font-size:20px;
+	text-align:justify;
+	line-height:40px;
+	margin-left:150px;
+	margin-right:200px;
+}
+.nutrition td{
+	border:2px solid #b49987;
+	text-align:center;
+	padding:30px;
+}
+.images{
+	float:right;
+	margin-right:50px;
+	margin-left:40px;
+}
+img{
+	border-radius:30px;
+}
+img:hover{
+	transform: scale(1.05);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
