@@ -9,56 +9,77 @@
   <link rel="stylesheet" type="text/css" href="./contentCSS.css"/>                                                              
   </head>
   <body id="top">
-  <a href="homepage.html">
+<script>var w = window.innerWidth;
+  var h = window.innerHeight; console.log(w);
+  console.log(h);
+  </script>
   <img src="https://rancesalxndra.github.io/integ/mr/muscleicon.png" class="logo"></a>
-  <h2>Muscle Recipe</h2>
+  <h2>MuscleRecipe</h2>
   
   <div class="navigate">
-  <a href="https://rancesalxndra.github.io/integ/mr/content6.html">
+  <a href="prevpage.html">
   <img src="https://rancesalxndra.github.io/integ/mr/leftarrow.png" class="arrow" title="Previous Recipe"></a>
   
-  <a href="https://rancesalxndra.github.io/integ/mr/content8.html">
+  <a href="https://rancesalxndra.github.io/integ/mr/content2.html">
   <img src="https://rancesalxndra.github.io/integ/mr/rightarrow.png" title="Next Recipe" class="arrow"></a>
   </div>
-  
-  <div class="content">
-  <br><br>
-  <h1>One-Pan Roasted Chicken And Sweet Potatoes</h1>
-	<br>
-	<div class="images">
-		<img src="https://rancesalxndra.github.io/integ/mr/food/sweet.jpg" height="300px" width="300px"><br><br>
-		<img src="https://rancesalxndra.github.io/integ/mr/food/sweet2.jpg" height="300px" width="300px">
-	</div>
+  <br><br><br>
+  <div class="container1">
 	<table>
 		<tr>
-		<td class="ratings" style="align:center;">
-		<img src="https://rancesalxndra.github.io/integ/mr/4star.png" width="110px" height="40px" style="padding-top:10px">
-		<br><br><b>4.76<br>from<br>25 votes</b></td>
-		
-		<td class="time">
-		<br><b>20<br><br>to<br><br>40 mins</b></td>
-
-		<td class="ingredients">
-		<br><br><b>11<br><br>ingredients</b></td>
-	</table>
+			<td><a href="#ing"><img src="https://rancesalxndra.github.io/integ/mr/food/ingredients.png" style="vertical-align:middle">&nbsp;&nbsp;Ingredients</td>
+		</tr>
+		<tr>
+			<td><a href="#ins"><img src="https://rancesalxndra.github.io/integ/mr/food/instructions.png" style="vertical-align:middle">&nbsp;&nbsp;Instructions</td>
+		</tr>
+		<tr>
+			<td><a href="#reco"><img src="https://rancesalxndra.github.io/integ/mr/food/recoexercises.png" style="vertical-align:middle">&nbsp;&nbsp;Recommended Exercises</td>
+		</tr>
+		<tr>
+			<td><a href="#nut"><img src="https://rancesalxndra.github.io/integ/mr/food/nutrival.png" style="vertical-align:middle">&nbsp;&nbsp;Nutrition Value</td>
+		</tr>
+	</table></div>
+  <div class="content">
+  <h1>One-Pan Roasted Chicken And Sweet Potatoes</h1>
+	<br>
+	 <div class="flex-container" align="center">
+		<div class="ratings"><img src="https://rancesalxndra.github.io/integ/mr/4star.png" width="110px" height="40px" style="padding-top:10px">
+		<br><b>4.76<br>from<br>25 votes</b></div>
+		<div class="time"><br><b>20<br><br>to<br><br>40 mins</b></div>
+		<div class="ingredients"><br><br><b>11<br><br>ingredients</b></div>
+	</div>
+	<br><br>
 	
+	<div class="images" align="center">
+		<img src="https://rancesalxndra.github.io/integ/mr/food/sweet.jpg" height="500px" width="700px"><br>
+	</div>
+	<br>
 	<div class="descrip">
-	<br><br>Healthy one-pan chicken, sweet potatoes, and broccoli oven-roasted to perfection! This quick one-pan dish is packed full of flavor and is GREAT for meal prepping too!
+	<br>Healthy one-pan chicken, sweet potatoes, and broccoli oven-roasted to perfection! This quick one-pan dish is packed full of flavor and is GREAT for meal prepping too!<br><br>
+	</div>
 	
-	<h3>Nutrition Value</h3>
-	<table class="nutrition" align="center">
+	<div class="images" style="display:inline-block;">
+	<div class="flex-container">
+		<div><img src="https://rancesalxndra.github.io/integ/mr/food/sweet2.jpg" height="500px" width="700px" style="margin-left:80px"></div>
+		<div class="nv"><h3>Nutrition Value</h3><table class="nutrition" style="float:right">
 		<tr>
 			<td>Calories: 536</td>
 			<td>Fat: 18g</td>
-			<td>Fiber: 33g</td>
 		</tr>
 		<tr>
-			<td>Protein: 39g</td>
-			<td>Carbohydrates: 52g</td>
+			<td>Protein: 18g</td>
+			<td>Carbohydrates: 87g</td>
+		</tr>
+		<tr>
+			<td>Fiber: 33g</td>
 			<td>Sugar: 20g</td>
 		</tr>
 	</table>
-		<h3>Ingredients</h3>
+	</div>
+	</div></div>
+	
+	<h3 id="ing" style="margin-left:150px;display:block;">Ingredients</h3>
+	<div class="c">
 		<ul style="list-style-type:disc">
 			<li>1 small sweet potato, diced</li>
 			<li>1 lemon, sliced, seeds removed</li>
@@ -71,9 +92,9 @@
 			<li>1 boneless, skinless chicken breast</li>
 			<li>¼ teaspoon paprika</li>
 		</ul>
-		
-	<h3>Directions</h3>
 	</div>
+	
+	<h3 id="ins" style="margin-left:150px;">Instructions</h3>
 	<div class="a">
 	<ol style="list-style-type: lower-roman;">
 		<li>&nbsp;&nbsp;&nbsp;Preheat the oven to 375˚F (190˚C). Line a baking sheet with parchment paper.</li><br>
@@ -81,48 +102,34 @@
 		<li>&nbsp;&nbsp;&nbsp;Bake until the vegetables are tender and chicken is cooked through, about 20 minutes.</li><br>
 	</ol>
 	</div>
-	<div class="b">
-	<h3>Recommended Exercises</h3>
-	<table style="width:auto;" class="table3">
-		<tr>
-			<td style="align:center;"><a href =".html" alt = "" target = ""><img src="https://cdn-icons-png.flaticon.com/512/1869/1869501.png" height="120"></a>
-		</tr>
-		<tr>
-			<th style="border-top:none;">EXERCISE 1</th>
-		</tr>
-		<tr>
-			<td style="border-top:none;">exercise description</td>
-		</tr>
-	</table>
-    
-	<table style="width:auto;" class="table4">
-		<tr>
-			 <td align="center"><a href =".html" alt="" target = ""><img src="https://www.freeiconspng.com/thumbs/exercise-icon/exercise-icon-1.png" height="120"></a>
-		</tr>
-		   <tr>
-			 <th style="border-top:none;">EXERCISE 2</th>
-		</tr>
-		   <tr>
-			 <td style="border-top:none;">exercise description</td>
-		</tr>
-	 </table>
-	<table class="table5">
-		<tr>
-			<td align="center" style="border-bottom:none;"><a href =".html" alt = "" target = ""><img src="https://cdn-icons-png.flaticon.com/512/387/387564.png" height="120"></a>
-		</tr>
-        <tr>
-			<th style="border-top:none;">EXERCISE 3</th>
-		</tr>
-        <tr>
-			<td style="border-top:none;">exercise description</td>
-		</tr>
-	</table>
+	
+	<h3 id="reco" style="margin-left:150px;">Recommended Exercises</h3>
+	<div class="flex-container-one" align="center">
+		<div class="table3"><a href ="https://ryanpua.github.io/integ/upperbody/pushup.html" alt = "" target = "window"><img src="https://ryanpua.github.io/integ/EX/pngs/pushup.png" height="120"></a>
+		<h3>PUSHUPS</h3>
+		<p>Shape and tone your shoulders, triceps and glutes, strengthens the chest, and helps to tone and tighten your core.</p>
+		</div>
+		
+		<div class="table4"><a href ="https://ryanpua.github.io/integ/lowerbody/squats.html" alt = "" target = "window"><img src="https://ryanpua.github.io/integ/EX/pngs/squats.png" height="120"></a>
+		<h3>SQUAT</h3>
+		<p>Tone the legs and the glutes and to strengthen the knee muscles.</p>
+		</div>
+		
+		<div class="table5"><a href ="https://heiseinosay.github.io/IP-FinalProject/Male_Workouts/core/rope_crunches.html" alt = "" target = "window"><img src="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Rope-Ab-Pulldown_b808db26-a4f3-4018-8007-5e31da5736dc_600x600.png?v=1612138402" height="120"></a>
+		<h3>ROPE CRUNCHES</h3>
+		<p>Challenges your abs not only by doing more reps, but by gradually lifting heavier each week.</p>
+		</div>
+		
+		<div class="table5"><a href ="https://heiseinosay.github.io/IP-FinalProject/Male_Workouts/legs/leg_press.html" alt = "" target = "window"><img src="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/Leg-Press_f7febd5c-75e5-42f4-9bb4-c938969ce293_600x600.png?v=1612138836" height="120"></a>
+		<h3>LEG PRESS</h3>
+		<p>Emphasizes different muscles by varying your foot position.</p>
+		</div>
+	</div>
 	<br><br><br>
 	<div align="center">
 	<a href="#top">
 	<img src="https://rancesalxndra.github.io/integ/mr/top.png" height="70px" width="70px" id="gotop">
 	</div>
-
   </div>
   </body>
   </html>
