@@ -170,6 +170,8 @@ nutritionValue{
 	border-collapse:separate;
 	border-spacing: 80px 0px;
 	text-align:center;
+	height:350px;
+	width:200px;
 	padding:20px;
 }
 .table4{
@@ -177,6 +179,8 @@ nutritionValue{
 	margin-top:10px;
 	box-shadow: 0 0 50px #ccc;
 	border-collapse:separate;
+	height:350px;
+	width:200px;
 	border-spacing: 80px 0px;
 	text-align:center;
 	padding:20px;
@@ -186,6 +190,8 @@ nutritionValue{
 	margin-top:10px;
 	box-shadow: 0 0 50px #ccc;
 	border-spacing: 80px 0px;
+	height:350px;
+	width:200px;
 	text-align:center;
 	padding:20px;
 }
