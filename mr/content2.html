@@ -9,116 +9,132 @@
   <link rel="stylesheet" type="text/css" href="./contentCSS.css"/>                                                              
   </head>
   <body id="top">
-  <a href="homepage.html">
+  <script>var w = window.innerWidth;
+  var h = window.innerHeight; console.log(w);
+  console.log(h);
+  </script>
   <img src="https://rancesalxndra.github.io/integ/mr/muscleicon.png" class="logo"></a>
-  <h2>Muscle Recipe</h2>
+  <h2>MuscleRecipe</h2>
   
   <div class="navigate">
-  <a href="https://rancesalxndra.github.io/integ/mr/content.html">
+  <a href="prevpage.html">
   <img src="https://rancesalxndra.github.io/integ/mr/leftarrow.png" class="arrow" title="Previous Recipe"></a>
   
-  <a href="https://rancesalxndra.github.io/integ/mr/content3.html">
+  <a href="https://rancesalxndra.github.io/integ/mr/content2.html">
   <img src="https://rancesalxndra.github.io/integ/mr/rightarrow.png" title="Next Recipe" class="arrow"></a>
   </div>
-  
-  <div class="content">
-  <br><br>
-  <h1>Greek Yogurt with Berries, Nuts and Honey</h1>
-	<br>
-	<div class="images">
-		<img src="https://rancesalxndra.github.io/integ/mr/food/greek.jpg" height="300px" width="300px"><br><br>
-		<img src="https://rancesalxndra.github.io/integ/mr/food/greek2.jpg" height="300px" width="300px">
-	</div>
+  <br><br><br>
+  <div class="container1">
 	<table>
 		<tr>
-		<td class="ratings" style="align:center;">
-		<img src="https://rancesalxndra.github.io/integ/mr/4star.png" width="110px" height="40px" style="padding-top:10px">
-		<br><br><b>4.95<br>out of <br>18 votes</b></td>
-		
-		<td class="time">
-		<br><b>45<br><br>to<br><br>50 mins</b></td>
+			<td><a href="#ing"><img src="https://rancesalxndra.github.io/integ/mr/food/ingredients.png" style="vertical-align:middle">&nbsp;&nbsp;Ingredients</td>
+		</tr>
+		<tr>
+			<td><a href="#ins"><img src="https://rancesalxndra.github.io/integ/mr/food/instructions.png" style="vertical-align:middle">&nbsp;&nbsp;Instructions</td>
+		</tr>
+		<tr>
+			<td><a href="#reco"><img src="https://rancesalxndra.github.io/integ/mr/food/recoexercises.png" style="vertical-align:middle">&nbsp;&nbsp;Recommended Exercises</td>
+		</tr>
+		<tr>
+			<td><a href="#nut"><img src="https://rancesalxndra.github.io/integ/mr/food/nutrival.png" style="vertical-align:middle">&nbsp;&nbsp;Nutrition Value</td>
+		</tr>
+	</table></div>
+  <div class="content">
+  <h1>Greek Yogurt with Berries, Nuts and Honey</h1>
+  <br>
+  <div class="flex-container" align="center">
+		<div class="ratings"><img src="https://rancesalxndra.github.io/integ/mr/5star.png" width="110px" height="40px" style="padding-top:10px">
+		<br><b>4.95<br>from<br>18 votes</b></div>
+		<div class="time"><br><b>45<br><br>to<br><br>50 mins</b></div>
+		<div class="ingredients"><br><br><b>11 <br><br>ingredients</b></div>
+	</div>
+	<br><br>
+	<div class="images" align="center">
+		<img src="https://rancesalxndra.github.io/integ/mr/food/greek.jpg" height="500px" width="700px"><br>
+	</div>
+	<br>
 
-		<td class="ingredients">
-		<br><br><b>11<br><br>ingredients</b></td>
-	</table>
-	
 	<div class="descrip">
-	<br><br>It's like having dessert for breakfast, but with the added benefits of protein and active probiotic cultures that are great for your intestines.
+	<br>It's like having dessert for breakfast, but with the added benefits of protein and active probiotic cultures that are great for your intestines.<br><br>
+	</div>
 	
-	<h3>Nutrition Value</h3>
-	<table class="nutrition" align="center">
+	<div class="images" style="display:inline-block;">
+	<div class="flex-container">
+		<div><img src="https://rancesalxndra.github.io/integ/mr/food/greek2.jpg" height="500px" width="700px" style="margin-left:80px"></div>
+		<div class="nv"><h3>Nutrition Value</h3><table class="nutrition" style="float:right">
 		<tr>
 			<td>Calories: 250 kcal</td>
+		</tr>
+		<tr>
 			<td>Carbohydrates: 35.5 g</td>
+		</tr>
+		<tr>
 			<td>Protein: 19.5 g</td>
+		</tr>
+		<tr>
 			<td>Fat: 4.5 g</td>
 		</tr>
 		<tr>
 			<td>Saturated Fat: 0.5 g</td>
+		</tr>
+		<tr>
 			<td>Sodium: 85.5 mg</td>
+		</tr>
+		<tr>
 			<td>Fiber: 2.5 g</td>
+		</tr>
+		<tr>
 			<td>Sugar: 31.5 g</td>
 		</tr>
-	</table>
-		<h3>Ingredients</h3>
-		
-		
+	</table></div>
+	</div></div>
+	
+	<br><br>
+	<h3 id="ing" style="margin-left:150px;">Ingredients</h3>
+	<div class="c">
 		<ul style="list-style-type:disc">
 			<li>6 oz nonfat plain Greek yogurt</li>
 			<li>1 tbsp honey, local preferred</li>
 			<li>1/2 cup fresh berries</li>
 			<li>1 tbsp chopped walnuts</li>
 		</ul>
-		
-	<h3>Directions</h3>
 	</div>
+	
+	<h3 id="ins" style="margin-left:150px;">Instructions</h3>
 	<div class="a">
 	<ol style="list-style-type: lower-roman;">
 		<li>&nbsp;&nbsp;&nbsp;Place yogurt in a dish, top with berries, nuts and honey.</li><br>
-		<li>&nbsp;&nbsp;&nbsp;Granola would taste great too.</li><br></ol>
+		<li>&nbsp;&nbsp;&nbsp;Granola would taste great too.</li><br>
+	</ol>
 	</div>
-	<div class="b">
-	<h3>Recommended Exercises</h3>
-	<table style="width:auto;" class="table3">
-		<tr>
-			<td style="align:center;"><a href =".html" alt = "" target = ""><img src="https://cdn-icons-png.flaticon.com/512/1869/1869501.png" height="120"></a>
-		</tr>
-		<tr>
-			<th style="border-top:none;">EXERCISE 1</th>
-		</tr>
-		<tr>
-			<td style="border-top:none;">exercise description</td>
-		</tr>
-	</table>
-    
-	<table style="width:auto;" class="table4">
-		<tr>
-			 <td align="center"><a href =".html" alt="" target = ""><img src="https://www.freeiconspng.com/thumbs/exercise-icon/exercise-icon-1.png" height="120"></a>
-		</tr>
-		   <tr>
-			 <th style="border-top:none;">EXERCISE 2</th>
-		</tr>
-		   <tr>
-			 <td style="border-top:none;">exercise description</td>
-		</tr>
-	 </table>
-	<table class="table5">
-		<tr>
-			<td align="center" style="border-bottom:none;"><a href =".html" alt = "" target = ""><img src="https://cdn-icons-png.flaticon.com/512/387/387564.png" height="120"></a>
-		</tr>
-        <tr>
-			<th style="border-top:none;">EXERCISE 3</th>
-		</tr>
-        <tr>
-			<td style="border-top:none;">exercise description</td>
-		</tr>
-	</table>
+	
+	<h3 id="reco" style="margin-left:150px;">Recommended Exercises</h3>
+	<div class="flex-container-one" align="center">
+		<div class="table3"><a href ="https://ryanpua.github.io/integ/core/birddog.html" alt = "" target = "window"><img src="https://ryanpua.github.io/integ/EX/pngs/birddog.png" height="120"></a>
+		<h3>BIRD DOG</h3>
+		<p>Improve the stability of your lumbar spine and prevent lower back pain.</p>
+		</div>
+		
+		<div class="table4"><a href ="https://ryanpua.github.io/integ/core/bicyclecrunch.html" alt = "" target = "window"><img src="https://ryanpua.github.io/integ/EX/pngs/bicyclecrunch.png" height="120"></a>
+		<h3>BICYCLE CRUNCH</h3>
+		<p>Works your abs and obliques and because it keeps your body moving constantly, boosts heart rate, and burns calories.</p>
+		</div>
+		
+		<div class="table5"><a href ="https://heiseinosay.github.io/IP-FinalProject/Male_Workouts/biceps/barbell_curls.html" alt = "" target = "window"><img src="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/EZ-Barbell-Curl_42cb566b-6415-4318-94e0-c93f4b442e59_600x600.png?v=1612137227" height="120"></a>
+		<h3>BARBELL CURLS</h3>
+		<p>Increase overall arm and grip strength and upper body mass.</p>
+		</div>
+		
+		<div class="table5"><a href ="https://heiseinosay.github.io/IP-FinalProject/Male_Workouts/core/plank_getups.html" alt = "" target = "window"><img src="https://cdn.shopify.com/s/files/1/0269/5551/3900/files/plank-get-ups.svg?v=1681297916" height="120"></a>
+		<h3>PLANK GET UPS</h3>
+		<p>Improve your posture, tightens the midsection, and boosts weight loss.</p>
+		</div>
+	</div>
 	<br><br><br>
 	<div align="center">
 	<a href="#top">
-	<img src="https://rancesalxndra.github.io/integ/mr/top.png height="70px" width="70px" id="gotop">
+	<img src="https://rancesalxndra.github.io/integ/mr/top.png" height="70px" width="70px" id="gotop">
 	</div>
-  
   </div>
   </body>
   </html>
