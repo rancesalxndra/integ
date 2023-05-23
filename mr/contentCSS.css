@@ -210,3 +210,16 @@ h5{
 	display: flex;
 	justify-content: center;
 }
+.buttons{
+	background-color:#F1BC59;
+	padding:20px;
+	display:inline-block;
+}
+.buttons:hover{
+	background-color:#747474;
+	padding:20px;
+	display:inline-block;
+	text-align:center;
+	color:white;
+}
+
